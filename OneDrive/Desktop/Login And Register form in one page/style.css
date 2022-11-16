@@ -6,8 +6,8 @@
 .hero{
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
-    background-color: #9482DC;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(bg-image.jpg);
+    /* background-color: #9482DC; */
     background-position: center;
     background-size: cover;
     position: absolute;
@@ -15,6 +15,7 @@
 }
 .form-box{
     width:380px;
+    border-radius: 10px;
     height: 480px;
     position: relative;
     margin: 6% auto;
